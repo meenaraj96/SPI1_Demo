@@ -1,0 +1,6 @@
+../Src/main.c:28:5:main	16	static
+../Src/main.c:42:6:SPI_GPIO_INIT	4	static
+../Src/main.c:84:6:SPI_CONFIG	4	static
+../Src/main.c:116:6:CS_ENABLE	4	static
+../Src/main.c:121:6:CS_DISABLE	4	static
+../Src/main.c:126:6:SPI_TRANSMIT	24	static
