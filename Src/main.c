@@ -91,7 +91,7 @@ void SPI_CONFIG(void)
 	SPI1->CR1 &= ~(1U<<4);
 	SPI1->CR1 &= ~(1U<<5);
 
-	//3) Set CPOL=1, CPHA=1
+	//3) Set CPOL=0, CPHA=1
 	//SPI1->CR1 |= (1U<<0); //CPHA
  	SPI1->CR1 &= ~(1U<<1); //CPOL
 
